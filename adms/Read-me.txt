@@ -1,0 +1,15 @@
+My project name is Advanced drivers Management System, the platform revolves around two key roles: the admin and the user (referred to as customer).
+
+The system is built on a database with 
+the server name set as "localhost," 
+using the username "valentin" and password "222007317" to access the "advanced_drivers_management_system" database.
+
+For users, the journey begins with accessing various pages like Home, About, Contact Us, and Services. However, to access advanced features such as booking drivers, they must first register. This registration process includes signing up and logging in. Once logged in, users can access the booking form to book drivers. Additionally, users have a "My Account" section in the navigation bar, where they can view their booking history.
+
+The Contact Us page allows users to send messages to the admin for any comments and inquiries or assistance they may need.
+
+On the admin side, access is granted through the login form. Once logged in, the admin can access the driver registration form to register new drivers. Furthermore, the admin has privileges to view, update, and delete driver information stored in the drivers' table.
+
+Admin capabilities extend to managing bookings, customer information, and handling messages. They can update and delete booking details and customer records. However, the deletion feature is limited to the message section, ensuring proper management of user interactions.
+
+Finally, both users and admins have a logout option available in the navigation bar. Clicking on logout redirects them back to the home page, maintaining a seamless user experience.

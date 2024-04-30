@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/back.jpg');
+    background-size: cover;
+    background-position: ;
+    background-repeat: no-repeat;
+    color: white; 
+
+}
+
+header {
+    background-color: #fcf8f8;
+    color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height:10px; /*  line height for vertical alignment */
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: blue;
+}
+        /* CSS styles for the heading */
+        h3 {
+            font-family: "Agency FB", sans-serif;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 0; /* Remove default margin */
+        }
+
+        .logo-container {
+            display: flex; /* Use flexbox */
+            align-items: center; /* Align items vertically */
+            justify-content: space-between; /* Add space between items */
+        }
+
+        .logo {
+            margin-right: 20px; /* Adjust the margin as needed */ 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section#Home {
+    text-align: center;
+    padding: 50px 0;
+}
+.objectives-container {
+            background-color:rgba(245, 250, 225, 0.7);
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            color: black; /* Title color */
+            display: flex;
+           justify-content: space-between;
+           align-items:left;
+        }
+footer {
+    background-color: ;
+    color: white;
+    text-align:center;
+    padding: 10px 0;
+}
